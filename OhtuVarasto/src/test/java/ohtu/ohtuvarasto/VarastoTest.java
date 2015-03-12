@@ -75,4 +75,44 @@ public class VarastoTest {
         varasto = new Varasto(-1,-1);
         varasto.toString();
     }
+    @Test
+    public void lisataanAlleNolla(){
+        Double paljonkoMahtuu = varasto.paljonkoMahtuu();
+        varasto.lisaaVarastoon(-1);
+        
+        assertTrue(paljonkoMahtuu == varasto.paljonkoMahtuu());
+    }
+    
+    @Test
+    public void lisataanVahemmanKuinMahtuu(){
+        Double paljonkoMahtuu = varasto.paljonkoMahtuu();
+        
+        varasto.lisaaVarastoon(2.0);
+        
+        Double paljonkoMahtuu1 = varasto.paljonkoMahtuu();
+        
+        assertTrue(paljonkoMahtuu - paljonkoMahtuu1 == 2.0);
+    }
+    
+    @Test
+    public void lisataanEnemmanKuinMahtuu(){
+        varasto.lisaaVarastoon(12.0);
+        
+        assertTrue(varasto.getSaldo() == varasto.getTilavuus());
+    }
+    
+    @Test
+    public void varastostaOtetaanVahemmanKuinNolla(){
+        double paljonkoSaadaan = varasto.otaVarastosta(-1);
+        
+        assertTrue(paljonkoSaadaan == 0.0);
+    }
+    
+    @Test
+    public void varastostaOtetaanYliSaldo(){
+        varasto.lisaaVarastoon(10);
+        double paljonkoSaadaan = varasto.otaVarastosta(12);
+        
+        assertTrue(paljonkoSaadaan == 10.0);
+    }
 }

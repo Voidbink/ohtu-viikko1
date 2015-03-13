@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.057" errors="0" skipped="0" tests="12" name="ohtu.ohtuvarasto.VarastoTest">
+<testsuite failures="0" time="0" errors="0" skipped="0" tests="12" name="ohtu.ohtuvarasto.VarastoTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_11\jre\bin"/>
@@ -15,7 +15,6 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
-    <property name="test" value="ohtu.ohtuvarasto.VarastoTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\User\Documents\GitHub\ohtu-viikko1\OhtuVarasto"/>
     <property name="java.runtime.version" value="1.7.0_11-b21"/>
@@ -28,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Program Files\tmcbeans\java\maven\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache Software Foundation\apache-maven-3.2.5\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.7.0_11\bin\;C:\Program Files\OpenVPN\bin;E:\QuickTime\QTSystem\;C:\Program Files\Apache Software Foundation\apache-maven-3.2.5\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -41,11 +40,11 @@
     <property name="java.specification.version" value="1.7"/>
     <property name="file.encoding" value="UTF8"/>
     <property name="user.name" value="User"/>
-    <property name="java.class.path" value="C:\Program Files\tmcbeans\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.class.path" value="C:\Program Files\Apache Software Foundation\apache-maven-3.2.5\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_11\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=ohtu.ohtuvarasto.VarastoTest test-compile surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="user.language.format" value="fi"/>
@@ -55,7 +54,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_11\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_11\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_11\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Program Files\tmcbeans\java\maven"/>
+    <property name="maven.home" value="C:\Program Files\Apache Software Foundation\apache-maven-3.2.5\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -63,16 +62,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.002" classname="ohtu.ohtuvarasto.VarastoTest" name="konstr"/>
-  <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="konstruktoriLuoTyhjanVaraston"/>
-  <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="uudellaVarastollaOikeaTilavuus"/>
   <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="lisaysLisaaPienentaaVapaataTilaa"/>
   <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="ottaminenPalauttaaOikeanMaaran"/>
+  <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="uudellaVarastollaOikeaTilavuus"/>
+  <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="konstruktoriLuoTyhjanVaraston"/>
   <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="varastostaOtetaanVahemmanKuinNolla"/>
   <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="lisaysLisaaSaldoa"/>
-  <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="ottaminenLis\u00E4\u00E4Tilaa"/>
+  <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="ottaminenLisääTilaa"/>
   <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="lisataanAlleNolla"/>
   <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="lisataanVahemmanKuinMahtuu"/>
   <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="lisataanEnemmanKuinMahtuu"/>
   <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="varastostaOtetaanYliSaldo"/>
+  <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="konstr"/>
 </testsuite>

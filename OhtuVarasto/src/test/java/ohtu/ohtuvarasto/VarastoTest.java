@@ -113,6 +113,6 @@ public class VarastoTest {
         varasto.lisaaVarastoon(10);
         double paljonkoSaadaan = varasto.otaVarastosta(12);
         
-        assertTrue(paljonkoSaadaan == 2.0);
+        assertTrue(paljonkoSaadaan == 10.0);
     }
 }
